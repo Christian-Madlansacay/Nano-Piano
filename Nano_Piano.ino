@@ -16,6 +16,12 @@
   https://www.hackster.io/christian-madlansacay/nano-piano-8da96d
 */
 
+// Customize the frequency values for each note (Note: It is not possible to generate tones lower than 31Hz.).
+int noteOneFreq = 170;
+int noteTwoFreq = 180;
+int noteThreeFreq = 190;
+int noteFourFreq = 200;
+
 // Variables for each of the digital pins for components.
 const int noteOne = 2;
 const int noteTwo = 3;
@@ -28,12 +34,6 @@ int noteOneState = false;
 int noteTwoState = false;
 int noteThreeState = false;
 int noteFourState = false;
-
-// Set the frequency values for each note (Note: It is not possible to generate tones lower than 31Hz.).
-int noteOneFreq = 170;
-int noteTwoFreq = 180;
-int noteThreeFreq = 190;
-int noteFourFreq = 200;
 
 void setup() {
 // Setting INPUT pins.
