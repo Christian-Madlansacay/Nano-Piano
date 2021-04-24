@@ -1,7 +1,7 @@
 /*
   Nano Piano
 
-  A simple, small piano that uses the Arduino Nano Every.
+  A simple, small piano that is not only small as the name implies, but it runs off of the Arduino Nano Every.
 
   created 2/25/2021
   by Christian Madlansacay
